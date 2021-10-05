@@ -1,9 +1,26 @@
-.favorite-card {
+.wrapping {
+  display: flex;
+  gap: 2rem;
+}
+.favorite-card1 {
   background-color: #fff2f0;
   width: 10rem;
   height: 10.9rem;
   border-radius: 2rem;
-  display: grid;
-  place-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+.favorite-card2 {
+  background-color: #eff7ee;
+  width: 10rem;
+  height: 10.9rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 1em;
 }
