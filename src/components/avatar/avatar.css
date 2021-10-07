@@ -1,5 +1,19 @@
+.wrapping__avatar {
+  position: relative;
+}
 .avatar {
+  width: 10rem;
+  height: 10rem;
+}
+.badge {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1.25rem;
+  background-color: var(--color-secondary);
+  display: grid;
+  place-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  border: 2px solid white;
 }
