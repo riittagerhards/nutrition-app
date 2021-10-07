@@ -1,8 +1,5 @@
 .wrapping__avatar {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .avatar {
   width: 10rem;
@@ -10,15 +7,13 @@
 }
 .badge {
   position: absolute;
-  bottom: 1%;
-  right: 10%;
+  bottom: 0.5rem;
+  right: 1.25rem;
   background-color: var(--color-secondary);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0.5rem;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 1rem;
+  display: grid;
+  place-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
   border: 2px solid white;
 }
