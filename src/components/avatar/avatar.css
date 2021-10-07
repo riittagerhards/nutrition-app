@@ -1,5 +1,24 @@
+.wrapping__avatar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .avatar {
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  width: 10rem;
+  height: 10rem;
+}
+.badge {
+  position: absolute;
+  bottom: 1%;
+  right: 10%;
+  background-color: var(--color-secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  border: 2px solid white;
 }
